@@ -11,10 +11,11 @@ After running this function, we will have training and testing files for each cr
 
 Now we can run the experiment for three multi-task survival analysis models.
 The “example_cox_CMTL.m” reforms to the Cluster Multi-task survival analysis models. This function have 6 arguments
+
 •	The Folder where the training and testing file stored
 •	Name of training file
 •	Name of testing file
-•	Number of searching parameter  
+•	Number of searching parameter
 •	Number of clusters
 •	The rate of smallest search parameter compares to the largest one 
 ***run example of example_cox_CMTL.m

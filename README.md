@@ -4,7 +4,9 @@ This package includes three models for multi-task survival analysis.
 The folder "data" includes the example data for usage. The data used for each task is stored in one single ".csv" file. Where each instance is represented as a row in file and the last two columns are survival_times and censored_indicators, respectively. 
 
 To wrong this code, the users should first run “multi_cox_prepare.m” to generate the training and testing file from the original files. The function has two input parameter, first denote the folder where all the data stored, and the second denotes the number of cross validation folders. 
+
 >> multi_cox_prepare '/data/Noname_addone_miRNA_use/' 3
+
 After running this function, we will have training and testing files for each cross validation.
 
 Now we can run the experiment for three multi-task survival analysis models.

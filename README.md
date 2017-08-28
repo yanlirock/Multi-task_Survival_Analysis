@@ -11,38 +11,37 @@ After running this function, we will have training and testing files for each cr
 
 Now we can run the experiment for three multi-task survival analysis models.
 The “example_cox_CMTL.m” reforms to the Cluster Multi-task survival analysis models. This function have 6 arguments
+1) The Folder where the training and testing file stored
+2) Name of training file
+3) Name of testing file
+4) Number of searching parameter
+5) Number of clusters
+6) The rate of smallest search parameter compares to the largest one 
 
-The Folder where the training and testing file stored
-Name of training file
-Name of testing file
-Number of searching parameter
-Number of clusters
-The rate of smallest search parameter compares to the largest one 
-
-***run example of example_cox_CMTL.m
+*** run example of example_cox_CMTL.m
 >> example_cox_CMTL 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 10 4 0.01
 
 The “example_cox_L21.m” reforms to the L_2,1 norm regularized Multi-task survival analysis models. This function has 6 arguments
 
-The Folder where the training and testing file stored
-Name of training file
-Name of testing file
-Number of searching parameter  
-The rate of smallest search parameter compares to the largest one 
-The scale of first searching point (usually set as 1)
+1) The Folder where the training and testing file stored
+2) Name of training file
+3) Name of testing file
+4) Number of searching parameter  
+5) The rate of smallest search parameter compares to the largest one 
+6) The scale of first searching point (usually set as 1)
 
-***run example of example_cox_CMTL.m
+*** run example of example_cox_CMTL.m
 >> example_cox_L21 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 100 0.01 1
 
 
 The “example_cox_Trace.m” reforms to the Trace norm regularized Multi-task survival analysis models. This function has 6 arguments
 
-The Folder where the training and testing file stored
-Name of training file
-Name of testing file
-Number of searching parameter  
-The rate of smallest search parameter compares to the largest one 
-The scale of first searching point (usually set as 1)
+1) The Folder where the training and testing file stored
+2) Name of training file
+3) Name of testing file
+4) Number of searching parameter  
+5) The rate of smallest search parameter compares to the largest one 
+6) The scale of first searching point (usually set as 1)
 
-***run example of example_cox_ Trace.m
+*** run example of example_cox_ Trace.m
 >> example_cox_Trace 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 100 0.01 1

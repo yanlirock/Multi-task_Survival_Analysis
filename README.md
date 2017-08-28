@@ -22,22 +22,26 @@ The “example_cox_CMTL.m” reforms to the Cluster Multi-task survival analysis
 >> example_cox_CMTL 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 10 4 0.01
 
 The “example_cox_L21.m” reforms to the L_2,1 norm regularized Multi-task survival analysis models. This function has 6 arguments
+
 •	The Folder where the training and testing file stored
 •	Name of training file
 •	Name of testing file
 •	Number of searching parameter  
 •	The rate of smallest search parameter compares to the largest one 
 •	The scale of first searching point (usually set as 1)
+
 ***run example of example_cox_CMTL.m
 >> example_cox_L21 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 100 0.01 1
 
 
 The “example_cox_Trace.m” reforms to the Trace norm regularized Multi-task survival analysis models. This function has 6 arguments
+
 •	The Folder where the training and testing file stored
 •	Name of training file
 •	Name of testing file
 •	Number of searching parameter  
 •	The rate of smallest search parameter compares to the largest one 
 •	The scale of first searching point (usually set as 1)
+
 ***run example of example_cox_ Trace.m
 >> example_cox_Trace 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 100 0.01 1

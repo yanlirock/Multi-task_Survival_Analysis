@@ -18,6 +18,7 @@ Name of testing file
 Number of searching parameter
 Number of clusters
 The rate of smallest search parameter compares to the largest one 
+
 ***run example of example_cox_CMTL.m
 >> example_cox_CMTL 'Noname_addone_miRNA_use/' 'train_1' 'test_1' 10 4 0.01
 

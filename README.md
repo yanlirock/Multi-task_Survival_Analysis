@@ -1,9 +1,18 @@
 # Multi-task_Survival_Analysis
 This package includes three models for multi-task survival analysis.
 
+@inproceedings{wang2017multi,
+  title={Multi-task Survival Analysis},
+  author={Wang, Lu and Li, Yan and Zhou, Jiayu and Zhu, Dongxiao and Ye, Jieping},
+  booktitle={2017 IEEE International Conference on Data Mining (ICDM)},
+  pages={485--494},
+  year={2017},
+  organization={IEEE}
+}
+
 The folder "data" includes the example data for usage. The data used for each task is stored in one single ".csv" file. Where each instance is represented as a row in file and the last two columns are survival_times and censored_indicators, respectively. 
 
-To wrong this code, the users should first run “multi_cox_prepare.m” to generate the training and testing file from the original files. The function has two input parameter, first denote the folder where all the data stored, and the second denotes the number of cross validation folders. 
+To run this code, the users should first run “multi_cox_prepare.m” to generate the training and testing file from the original files. The function has two input parameter, first denote the folder where all the data stored, and the second denotes the number of cross validation folders. 
 
 >> multi_cox_prepare '/data/Noname_addone_miRNA_use/' 3
 
